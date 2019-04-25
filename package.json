@@ -1,11 +1,11 @@
 {
   "name": "ember-infinite-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides infinite scroll with pagination",
   "keywords": [
     "ember-addon", "infinite-scroll", "ember-pagination", "ember-scroll", "scroll"
   ],
-  "repository": "",
+  "repository": "https://github.com/abulsayyad123/ember-infinite-list",
   "license": "MIT",
   "author": "AbulAsar Sayyad",
   "directories": {
