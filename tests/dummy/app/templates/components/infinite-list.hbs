@@ -1,0 +1,8 @@
+<div class="infinite-list-container" style="overflow-y: scroll; max-height: {{ height }}">
+  {{yield items}}
+</div>
+
+{{log isLoadingMore}}
+{{#if isLoadingMore}}
+  {{partial "infinite-load-spinner"}}
+{{/if}}

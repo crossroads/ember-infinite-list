@@ -1,0 +1,1 @@
+export { default } from 'ember-infinite-list/components/infinite-list';
