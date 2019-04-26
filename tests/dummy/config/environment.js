@@ -44,6 +44,12 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.locationType = 'hash';
+    ENV.baseURL = '/ember-infinite-list/';
+    ENV.locationType = 'hash';
+    ENV.rootURL = '/ember-infinite-list/';
+    ENV.locationType = 'hash';
+    ENV.baseURL = '/ember-infinite-list/';
     // here you can enable a production-specific feature
   }
 
