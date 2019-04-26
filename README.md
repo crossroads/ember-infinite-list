@@ -1,4 +1,4 @@
-infinite-list
+Ember Infinite List
 ==============================================================================
 
 [Short description of the addon.]
