@@ -1,12 +1,17 @@
-<div class="xyz">
-  <h2 id="title">Welcome to Infinite Scroll</h2>
+<header class="title">
+  <h2 align="center">Welcome to Infinite List</h2>  
+</header>  
+
+<div style="margin-top: 2%;">
   {{#infinite-list height="75vh" loadMore=(action "loadMoreData") as |items| }}
-    <ul class="list list-activity list-offer-items">
-      {{#each items as |item|}}
-        <li>
-          <p style="color:aliceblue;">{{item.id}} {{item.name}}</p>
-        </li>
-      {{/each}}
-    </ul>
+    <div class="numberlist">
+      <ol>
+        {{#each items as |item|}}
+          <li>
+            <a>{{item.name}}</a>
+          </li>
+        {{/each}}
+      </ol>
+    </div>  
   {{/infinite-list}}
 </div>  
