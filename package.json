@@ -1,6 +1,6 @@
 {
   "name": "ember-infinite-list",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Provides infinite scroll with pagination",
   "keywords": [
     "ember-addon",
